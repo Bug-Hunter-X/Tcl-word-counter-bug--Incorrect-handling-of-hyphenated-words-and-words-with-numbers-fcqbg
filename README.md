@@ -1,0 +1,3 @@
+This repository contains a Tcl procedure that counts words in a string. The initial version has a bug where it incorrectly handles hyphenated words and words containing numbers. A corrected version is provided that addresses these issues.
+
+The bug is demonstrated with several test cases showing the incorrect counts. The solution uses a more robust regular expression to correctly identify words.  This improved regular expression correctly handles hyphenated words, words with numbers, and also edge cases such as an empty input string.
